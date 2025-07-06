@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Built With
+
+* [Next.js](https://nextjs.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Headless UI](https://headlessui.com/)
+* [Framer Motion](https://www.framer.com/motion/)
+
 ## Getting Started
 
 First, run the development server:
