@@ -31,8 +31,6 @@ const SectionHero = () => {
           piece of art
         </motion.h1>
 
-        
-
 
         <motion.p
           initial={"offscreen"}
@@ -59,13 +57,13 @@ const SectionHero = () => {
         </motion.div>
       </div>
 
-      <div className='w-1/2'>
+      <div className='w-1/2 flex items-center'>
         <Image
           src="/image/hall.png"
           alt="Hero picture show hall"
           width={800}
           height={500}
-          className="absolute right-20 xl:h-[448px] xl:w-[700px] lg:h-[344px] lg:w-[500px] hidden lg:block"
+          className="right-20 xl:h-[448px] xl:w-[700px] lg:h-[344px] lg:w-[500px] hidden lg:block p-10"
           priority
         />
       </div>

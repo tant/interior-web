@@ -124,6 +124,13 @@
   body {
     @apply bg-background text-foreground;
   }
+  .container {
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 @layer components {
@@ -132,3 +139,14 @@
   }
 }
 
+
+
+/* At the '2xl' breakpoint (min-width: 1536px), the container's
+  max-width is set to your custom value of 1400px, overriding
+  the default.
+*/
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1400px;
+  }
+}
