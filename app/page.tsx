@@ -3,6 +3,7 @@ import SectionStats from '@/components/SectionStats';
 import SectionAbout from '@/components/SectionAbout';
 import SectionServices from '@/components/SectionServices';
 import SectionCataglog from '@/components/SectionCatalog';
+import SectionReview from '@/components/SectionReview';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <SectionAbout />
       <SectionServices />
       <SectionCataglog />
+      <SectionReview/>
     </main>
   );
 }

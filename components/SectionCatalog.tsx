@@ -20,7 +20,7 @@ export default function SectionCataglog() {
             initial="offscreen"
             whileInView={"onscreen"}
             variants={titleVariants} 
-            className="py-4 text-4xl font-medium lg:text-6xl lg:py-0"
+            className={"py-4 text-4xl font-medium lg:text-6xl lg:py-0"}
           >
             Modern Classic 
           </motion.h1>
@@ -28,7 +28,7 @@ export default function SectionCataglog() {
              initial="offscreen"
              whileInView={"onscreen"}
              variants={desVariants}
-            className="pb-6 text-xl font-bold tracking-wider mt-5"
+            className={"pb-6 text-xl font-bold tracking-wider mt-5"}
           >
             LUXURY DECOR TO CREATE COMFORT IN OUR HOME
           </motion.h2>
@@ -38,7 +38,7 @@ export default function SectionCataglog() {
           initial="offscreen"
           whileInView={"onscreen"}
           variants={tagVariants} 
-          className="grid grid-cols-2 text-gray-500 gap-x-8"
+          className={"grid grid-cols-2 text-gray-500 gap-x-8"}
         >
           <p>
             Discover our curated collection of completed home interiors, where elegance meets comfort in every detail. Each space is thoughtfully designed to inspire and elevate your living experience.
