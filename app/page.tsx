@@ -2,6 +2,7 @@ import SectionHero from '@/components/SectionHero';
 import SectionStats from '@/components/SectionStats';
 import SectionAbout from '@/components/SectionAbout';
 import SectionServices from '@/components/SectionServices';
+import SectionCataglog from '@/components/SectionCatalog';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <SectionStats />
       <SectionAbout />
       <SectionServices />
+      <SectionCataglog />
     </main>
   );
 }
