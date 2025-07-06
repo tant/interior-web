@@ -51,7 +51,7 @@ const posts = [
   },
 ]
 
-export default function SectionContact() {
+export default function SectionReview() {
   return (
     <div className="pt-12"> 
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
