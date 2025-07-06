@@ -16,7 +16,7 @@ cd interior-website
 Next, install the required dependencies:
 
 ```bash
-npm i @headlessui/react @heroicons/react @radix-ui/react-dialog @radix-ui/react-icons @radix-ui/react-slot framer-motion clsx lucide-react react-countup swiper tailwindcss-animatecss tailwind-merge next-themes
+npm i @headlessui/react @heroicons/react @radix-ui/react-dialog @radix-ui/react-icons @radix-ui/react-slot framer-motion clsx lucide-react react-countup swiper tailwindcss-animatecss tailwind-merge react-icons next-themes
 ```
 
 ## 3. Initialize Shadcn/UI
@@ -149,6 +149,14 @@ added 1 package, and audited 401 packages in 1s
 144 packages are looking for funding
   run `npm fund` for details
 
+developer@machine:~/nextjs/interior-website$ npm i react-icons
+
+added 1 package, and audited 405 packages in 4s
+
+146 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
 
 developer@machine:~/nextjs/interior-website$ npm i next-themes
 
